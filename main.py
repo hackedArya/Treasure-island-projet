@@ -43,8 +43,9 @@ user_input = input("you are at a cross road. Where do you want to go? Type 'left
 # if user input == right than user loose and output will be the print function ("you fall in the hole. Game over")
 if user_input == "right":
     print(" you fall in the hole. Game Over")
-
-# if user input == left than user continue to next challenge , again with option "swim" or "wait"
+  
+# if user input == left than counter with another challenge to choose two option "swim" or "wait" 
+elif user_input == "left" : 
     user_input2 = input("you have another challenge choose 'swim' or 'wait' \n").lower() 
    
     #if user input == swim than user loose and output will be the print function ("you became shark dinner. Game over")
